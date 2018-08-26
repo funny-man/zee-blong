@@ -16,7 +16,10 @@
 [预览](http://js.jirengu.com/fowujuheru/1/edit)
 
 - 通过absolute的top：50%并且利用CSS3的transform: translate(-50%, -50%);移动自身宽高的50%
-[预览](http://js.jirengu.com/fowujuheru/1/edit)
+[预览](http://js.jirengu.com/fowujuheru/3/edit)
+
+- 通过absolute的top/left/right/bottom全设置为0，子元素固定宽高；margin：auto
+[预览](http://js.jirengu.com/sutomifohu/2/edit)
 
 - 通过child的before或者after添加一个元素都设置display: inline-block;并且before或者after设置高度100%；每个元素添加vertical-align: middle;（通常情况下before或者after设置宽度为0为不可见状态）
 [预览](http://js.jirengu.com/lexiluwake/1/edit)
@@ -24,5 +27,10 @@
 - table>tr>td中的元素不管是div还是文字都会以垂直居中（也可以吧div设置display: table；变成table效果一样）
 [预览](http://js.jirengu.com/fetibotide/1/edit)
 
+- flex设置垂直水平居中
+[预览](http://js.jirengu.com/zujaziqafi/2/edit)
+
+- 文本垂直居中line-height设置和父元素高度一样
+[预览](http://js.jirengu.com/zujaziqafi/3/edit)
 
 
