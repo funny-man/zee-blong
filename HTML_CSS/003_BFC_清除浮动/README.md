@@ -17,22 +17,21 @@
 
 如图由于内部元素浮动无法撑开父容器
 
-![](https://raw.githubusercontent.com/funny-man/zee-blong/master/HTML_CSS/002_%E9%80%89%E6%8B%A9%E5%99%A8%E4%BC%98%E5%85%88%E7%BA%A7/1535272011759_21.png)
-1488720104361_2.png
+![](https://github.com/funny-man/zee-blong/blob/master/HTML_CSS/003_BFC_%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/1488720104361_2.png)
 
 因此我们可以通过为父容器加入overflow: hidden;触发父容器的bfc使父容器计算高度时候把内部的浮动元素包含。
 
-![](https://raw.githubusercontent.com/funny-man/zee-blong/master/HTML_CSS/002_%E9%80%89%E6%8B%A9%E5%99%A8%E4%BC%98%E5%85%88%E7%BA%A7/1535272011759_21.png)
+![](https://github.com/funny-man/zee-blong/blob/master/HTML_CSS/003_BFC_%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/1488454106016_2.png)
 
 **防止垂直margin重叠（折叠）**
 
 如图当两个div设置margin:50px时候但是他们之间的距离还是50px说明两个margin重叠（折叠）了
 
-![](https://raw.githubusercontent.com/funny-man/zee-blong/master/HTML_CSS/002_%E9%80%89%E6%8B%A9%E5%99%A8%E4%BC%98%E5%85%88%E7%BA%A7/1535272011759_21.png)
+![](https://github.com/funny-man/zee-blong/blob/master/HTML_CSS/003_BFC_%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/1488454106495_5.png)
 
 在其中一个div父容器加入overflow: hidden;触发bfc此时间距变为100px
 
-![](https://raw.githubusercontent.com/funny-man/zee-blong/master/HTML_CSS/002_%E9%80%89%E6%8B%A9%E5%99%A8%E4%BC%98%E5%85%88%E7%BA%A7/1535272011759_21.png)
+![](https://github.com/funny-man/zee-blong/blob/master/HTML_CSS/003_BFC_%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/1488454106377_4.png)
 
 ----
 
