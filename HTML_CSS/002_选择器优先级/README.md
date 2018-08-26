@@ -14,10 +14,10 @@
 
 ### **复杂场景计算方法**
 
-![](https://funny-man.github.io/zee-blong/HTML_CSS/002_选择器优先级/1535272011759_21.png)
+![](https://raw.githubusercontent.com/funny-man/zee-blong/master/HTML_CSS/002_%E9%80%89%E6%8B%A9%E5%99%A8%E4%BC%98%E5%85%88%E7%BA%A7/1535272011759_21.png)
 
 
-## **a:link, a:hover, a:active, a:visited **
+## **关于a:link, a:hover, a:active, a:visited顺序**
 
 **正确顺序应为：**
 
